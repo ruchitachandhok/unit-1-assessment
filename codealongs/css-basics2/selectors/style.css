@@ -1,0 +1,13 @@
+body {
+    font-family: "Lucia Grande";
+}
+
+#p1{
+    background: linear-gradient(to left, #333, #333 50 )
+}
+
+h1{
+    text-align: center;
+    color: red;
+
+}

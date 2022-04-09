@@ -1,0 +1,38 @@
+body {
+    font-family: "Lucida Grande";
+    margin 15x;
+        }
+
+    /* border: width style color */
+
+    li.super-cool {
+        /*
+        border-width: 2px;
+        border-style: solid;
+        border-color: red; */
+
+        border: 2px solid red;
+    }
+
+    /*
+        a[href="https://www.google.com"] {
+            text-decoration: none;
+        }
+        */
+
+        div .crazy.super-cool p {
+            background-color: yellow;
+        }
+
+div + p {
+    color: blueviolet;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background-color: grey;
+    }
+
+    p#comments-title::first-letter {
+        font-size: 60px;
+    }
