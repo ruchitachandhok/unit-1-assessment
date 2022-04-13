@@ -1,0 +1,47 @@
+section {
+  height: 400px;
+  display: flex; /* defaults to row layout */
+  justify-content: center; /* centers items horizontally in row layout */
+  align-items: center; /* centers vertically in row layout */
+  flex-direction: row;
+  /* flex-direction: column; will set layout to column instead of row */
+}
+
+button {
+  padding: 15px 32px;
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 12px;
+}
+
+#addition:hover{
+color:white;
+background-color: black;
+}
+
+#subtraction:hover{
+    color:white;
+    background-color: black;
+    }
+    
+input {
+  padding: 15px 35px;
+  color: gray;
+  /* text-emphasis-color: black; */
+  text-align: center;
+  font-size: 25px;
+  border-radius: 12px;
+}
+
+#sumdisplay {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  /* /* //top: 200px;* */
+  font-size: x-large; 
+  border-radius: 12px;
+  /* align-content: center;
+  padding: 10px; */
+}
